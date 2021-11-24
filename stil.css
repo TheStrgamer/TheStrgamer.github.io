@@ -69,3 +69,8 @@ button {
     height: 75px;
     font-size: 25px;
 }
+#sidenyhet:hover {
+
+    background-color: #ec3b3b;
+    border: 2px solid #b11111;
+}

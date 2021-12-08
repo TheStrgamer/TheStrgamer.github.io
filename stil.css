@@ -25,6 +25,7 @@ a:hover {
     background-color: #3b3b3b;
     position: fixed;
     z-index: 10;
+    border-bottom: 4px solid #2828db;
 }
 
 .topmeny  {

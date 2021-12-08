@@ -1,76 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
-    background-color: #f5f5f5;
-    font-family: Arial,'Helvetica Neue' , Helvetica, sans-serif;
-}
-h1 {
+    background-color: #292929;
     color: #ffffff;
-    
 }
-img {
-    max-width: 80%;
-}
-h1 {
-    margin-top: 0px;
-    font-size: 45px;
-}
+
 a {
+    font-size: 20px;
     color: #ffffff;
     text-decoration: none;
 }
-#banner {
-    border:solid 5px #cf0000;
-    height: 50px;
-    position: fixed;
-    width: 98%;
-    margin-top: -100px;
-    background-color: #cf0000;
-
+a:hover {
+    color: #bdbdbdbe;
+    font-size: 22.5px;
 }
-#innholdsboks {
+#banner {
+    height: 70px;
+    width: 100%;
+    background-color: #3b3b3b;
+    position: fixed;
+    z-index: 10;
+}
+
+.topmeny  {
+    position: absolute;
+    top: -110px;
+    width: 200px;
+    height: 170px;
+    background-color: #3b3b3b ;
+    transition: 0.3s;
+    text-align: center;
+    border-radius: 0px 0px 15px 15px;
+    z-index: 15;
+}
+.topmeny:hover {
+    top: 0px;
+    background-color: #272727;
+}
+.bottomText {
+    position: absolute;
+    bottom: -5px;
+    left: 15px;
+    font-size: 50px;
+}
+#main {
+    position: relative;
     margin-left: auto;
     margin-right: auto;
-    width: 600px;
-
-    margin-top: 100px;
+    top: 65px;
+    width: 75%;
+    z-index: 0;
+    background-color: #2f2f2f;
+    height: 100%;
+    border: 10px solid #2c2c2c;
+    border-radius: 0px 0px 20px 20px;
+    padding: 15px;
 }
-#sidemeny {
-    position: fixed;
-    width: 250px;
-    border: 10px solid #cf0000;
-    background-color: #eb0000;
-    margin-top: -4.2%;
+#main p{
+    font-size: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    margin-top: 5%;
+}
+td, th {
+    border: 2px solid black;
+    text-align: center;
+    background-color: #b9b9b9;
+    padding: 4px;
+}
+th {
+    background-color: #363636;
     color: white;
 }
-#sidenyhet {
-
-
-    width: 99%;
-    height: 135px;
-    background-color: #eb1010;
-    border: 2px solid #af0000;
-    margin-top: -10px;
-    font-size: 85%;
-}
-#subscribe {
-    border: 10px solid #af0000;
-    border-radius: 25px 25px 25px 25px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 600px;
-    height: 400px;
-    margin-top: 100px;
-    background-color: #d0d0d0;
-    text-align: center;
-}
-button {
+.tid {
+    background-color: #646464;
     color: whitesmoke;
-    background-color: rgb(122, 145, 145);
-    width: 250px;
-    height: 75px;
-    font-size: 25px;
 }
-#sidenyhet:hover {
+.toppting {
+    border: none;
+    height: 60px;
+    border-radius: 50% 50% 0% 0%;
+}
+.fritime {
+    background-color: #cccccc;
+}
+#download {
+    width: 150px;
+    height: 100px;
+    color: white;
+    background-color: green;
+    font-size: 30px;
+    position: relative;
+    left: 42.5%;
+    
+    
+}
+img {
+    width: 75%;
+    position: relative;
+    left: 12.5%;
+}
+#fantdefimg {
+    border: 2px solid gold;
+}
+#nahobino {
+    border: 5px solid #5808d8b6;
+    border-radius: 15px;
+}
+h1, h2, h3, p {
+    font-family:"Nunito" , Geneva, sans-serif;
+}
+#nyhetframe {
+    background-color: #a30000;
+    border: 5px solid #800000;
+    border-radius: 15px;
+    width: 700px;
+    height: 250px;
+}
 
-    background-color: #ec3b3b;
-    border: 2px solid #b11111;
+#guri:hover {
+    color: #bdbdbdbe;
+    font-size: 20px;
 }

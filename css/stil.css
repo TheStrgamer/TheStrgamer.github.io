@@ -1,79 +1,142 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
-
-body {
-    background-color: #292929;
-    color: #ffffff;
-}
-
-a {
-    font-size: 15px;
-    color: #ffffff;
-}
-a.hover {
-    color: #dddddd;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee5e9;
+    color: #333;
+    margin:0;
+    padding: 20px;
+    overflow: hidden;
 }
 
 
-#main {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-    z-index: 0;
-    background-color: #2f2f2f;
-    height: 100%;
-    border: 10px solid #2c2c2c;
-    border-radius: 0px 0px 20px 20px;
-    padding: 15px;
+h1{
+    color: #221e22;
 }
-#main p{
+
+a{
+    text-decoration: none;
+    color: #221e22;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+button{
+    background-color: #639a9b;
+    color: #eee5e9;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #73aaab;
+}
+
+
+.topbar {
+    background-color: #333;
+    color: #eee5e9;
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    
+    z-index: 100;
+}
+
+.topbar-left {
+    display: flex;
+    justify-content: flex-start;
+    flex: 1;
+
+    gap: 20px; 
+    
+
+}
+
+.topbar-center {
+    display: flex;
+    flex: 3;
+    justify-content: center;
+    gap: 20px; 
+
+}
+
+.topbar-right {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    gap: 20px; 
+
+}
+
+.topbar a {
+    color: #eee5e9;
+    text-decoration: none;
     font-size: 20px;
 }
-#main h1 {
-    font-size: 40px;
-    text-align: center;
+
+.topbarButton {
+    background-color: #221e2200;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    height: 40px;
+}
+.topbarButton:hover{
+    background-color: #a1a1a139;
+    transition: 0.1ms;
+}
+
+.centered_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    margin-top: 30px;
+    overflow-y: auto;
+    box-sizing: border-box;
+    max-height: calc(100vh - 50px);
+    min-height: 80%;
+    background-color: #cac7c7;
+}
+
+.btn{
+    font-size: 16px;
+    outline: none;
+}
+
+.logo{
+    width: 13%;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto 20px;
 }
 
 
-
-
-img {
-    width: 75%;
-    position: relative;
-    left: 12.5%;
-}
-.element {
-    background: #323232;
-    margin-left: 1%;
-    margin-top: 1%;
-    height: 100px;
-}
-.element h1, h3, h4, h5, h6 {
-
-    padding: 5px;
-    height: 50px;
-}
-.element h2 {
-    padding: 3px;
-}
-.element p {
-    padding: 3px;
+form{
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4p 8px rgba(0,0,0,0.1);
+    padding: 20px;
 }
 
-.wishImage{
-    position :relative;
-    left: 0px;
-    width:240px;
-    height: 80%;
+label{
+    font-weight: bold;
 }
-.toRight {
-    position: relative;
-    left: 40%;
-    width: 20%;
-    bottom: 150px;
-}
+
+

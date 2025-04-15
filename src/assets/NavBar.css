@@ -1,0 +1,31 @@
+
+.navBar {
+    top: 0;
+    height: 75px;
+    width: 100%;
+    position: relative;
+    background-color: rgb(92, 92, 92);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 0 2px #00000055;
+
+}
+.navBarButton {
+    font-size: 1.5rem;
+    background-color: #0000;
+    color: aliceblue;
+    padding: 8px 20px;
+    border-radius: 15px;
+    transition: .4s;
+
+
+}
+.navBarButton:visited {
+    color: aliceblue;
+}
+.navBarButton:hover {
+    background-color: var(--hover-color, aliceblue);
+
+}

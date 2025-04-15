@@ -1,11 +1,13 @@
 import { useState } from 'react'
 import '../assets/NavBar.css'
+import { Link } from 'react-router-dom';
+
 
 function NavBarButton({name, route, color}) {
 
   return (
     <>
-    <a style={{ '--hover-color': color }} className='navBarButton' href={route}>{name}</a>
+    <Link style={{ '--hover-color': color }} className='navBarButton' to={route}>{name}</Link>
     </>
   )
 }

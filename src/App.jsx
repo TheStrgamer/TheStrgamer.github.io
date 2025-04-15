@@ -1,12 +1,24 @@
 import { useState } from 'react'
 import './App.css'
-import ImageSlider from './components/ImageSlider.jsx'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
+import Experience from './pages/Experience'
+import Projects from './pages/Projects'
+import NavBar from './components/NavBar'
 
 function App() {
   return (
-    <div className='main'>
-      <ImageSlider images={["Baines.png", "dante.jpg", "vergil.png"]} />
-    </div>
+    <BrowserRouter>
+      <NavBar/>
+      <div className='main'>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/projects' element={<Projects />} />
+          <Route path='/experience' element={<Experience />} />
+
+        </Routes>
+      </div>
+    </BrowserRouter>
   )
 }
 

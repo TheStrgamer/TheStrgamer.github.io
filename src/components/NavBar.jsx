@@ -6,12 +6,11 @@ function NavBar() {
   
   const pages = [["Home", "/", "#be1030"],["Experience", "/experience", "#30ae00"],["Projects", "/projects", "#0040ae"]]
   const [index, setIndex] = useState(0);
-  const activePage = pages[index]
 
   let buttons = [];
-  for (var i = 0; i<pages.length; i++) {
+  for (let i = 0; i<pages.length; i++) {
     buttons.push(
-        <NavBarButton name={pages[i][0]} route={pages[i][1]} color={pages[i][2]} />
+        <NavBarButton key={i} name={pages[i][0]} route={pages[i][1]} color={pages[i][2]} onClick={() => setIndex(i)} active={index === i} />
     )
   }
 

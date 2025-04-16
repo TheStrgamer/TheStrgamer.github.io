@@ -1,11 +1,11 @@
-
+@import url(../index.css);
 .navBar {
     top: 0;
     height: 75px;
     width: 100%;
     position: relative;
-    background-color: #5c5c5c;
-    color: aliceblue;
+    background-color: var(--navbar);
+    color: var(--text);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -15,7 +15,7 @@
 .navBarButton {
     font-size: 1.5rem;
     background-color: #0000;
-    color: aliceblue;
+    color: var(--text);
     padding: 8px 20px;
     border-radius: 15px;
     transition: .4s;
@@ -23,9 +23,9 @@
 
 }
 .navBarButton:visited {
-    color: aliceblue;
+    color: var(--text);
 }
 .navBarButton:hover {
-    background-color: var(--hover-color, aliceblue);
+    background-color: var(--hover-color, var(--text));
 
 }

@@ -1,10 +1,11 @@
 import { useState } from 'react'
 import '../assets/NavBar.css'
 import NavBarButton from './NavBarButton';
+import ThemeToggle from './ThemeToggle';
 
 function NavBar() {
   
-  const pages = [["Home", "/", "#be1030"],["Experience", "/experience", "#30ae00"],["Projects", "/projects", "#0040ae"]]
+  const pages = [["Home", "/", "var(--hover-red)"],["Experience", "/experience", "var(--hover-green)"],["Projects", "/projects", "var(--hover-blue)"]]
   const [index, setIndex] = useState(0);
 
   let buttons = [];
@@ -13,15 +14,15 @@ function NavBar() {
         <NavBarButton key={i} name={pages[i][0]} route={pages[i][1]} color={pages[i][2]} onClick={() => setIndex(i)} active={index === i} />
     )
   }
-
   
   
   return (
     <>
-    <div className="navBar">
+    <header className="navBar">
         {buttons}
+        <ThemeToggle/>
 
-    </div>
+    </header>
 
     </>
   )

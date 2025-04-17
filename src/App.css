@@ -26,6 +26,8 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 20px 0;
+  box-shadow: 0 2px 4px 0 #00000020;
+
 }
 .text {
   max-width: 500px;

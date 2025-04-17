@@ -1,0 +1,23 @@
+@import url("../index.css");
+.footer {
+    bottom: 0;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: var(--navbar);
+
+}
+
+.footer img {
+    width: clamp(50px, 10vw, 75px);
+    height: clamp(50px, 10vw, 75px);
+    object-fit: contain;
+    transition: box-shadow 0.3s ease;
+    border-radius: 8px;
+}
+.footer img:hover {
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
+}

@@ -10,7 +10,7 @@ function Technologies() {
     }
 
     return (
-        <div>
+        <div className="techContainer">
         <h2>Technologies</h2>
         <div className="technologies">
             {logos}

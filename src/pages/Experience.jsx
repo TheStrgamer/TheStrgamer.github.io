@@ -17,7 +17,7 @@ function Experience() {
 
     return(
         <>
-        <h2>Experience</h2>
+        <h1>Experience</h1>
         <div className="content">
             {experience}
         </div>

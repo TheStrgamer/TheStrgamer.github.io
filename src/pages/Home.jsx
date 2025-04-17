@@ -3,7 +3,7 @@ import Technologies from "../components/Technologies"
 function Home() {
     return(
         <>
-        <h2>Konrad Øye Seime</h2>
+        <h1>Konrad Øye Seime</h1>
         <div className="content">
           <ImageSlider images={["me.jpg", "hold.jpg", "jump.jpg", "climb.jpg"]} />
           <div className="text">

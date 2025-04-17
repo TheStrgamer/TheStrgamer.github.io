@@ -41,7 +41,7 @@ function NavBar() {
     <>
       <header className="navBar">
         {isMobile ? (
-          <button className="dropDownButton" onClick={toggleDropDown}>☰</button>
+          <button className="navBarButton" onClick={toggleDropDown}>☰</button>
         ) : (
           buttons
         )}

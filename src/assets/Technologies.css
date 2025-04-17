@@ -1,0 +1,18 @@
+.technologies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    width: 90%;
+}
+.technologies img {
+    width: clamp(100px, 10vw, 150px);
+    height: clamp(100px, 10vw, 150px);
+    object-fit: contain;
+    transition: box-shadow 0.3s ease;
+    border-radius: 8px;
+}
+.technologies img:hover {
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
+}

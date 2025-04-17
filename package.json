@@ -6,6 +6,7 @@
   "homepage": "https://thestrgamer.github.io/",
   "scripts": {
     "dev": "vite",
+    "server": "vite --host",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",

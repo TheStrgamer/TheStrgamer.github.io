@@ -27,7 +27,7 @@ function ThemeToggle() {
         onChange={toggleTheme}
       />
       <span className="slider">
-        <img className="icon" src={isDark ? '../../public/moon.svg' : '../../public/sun.svg'}/>
+        <img className="icon" src={isDark ? '/moon.svg' : '/sun.svg'}/>
       </span>
     </label>
   )

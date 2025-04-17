@@ -20,9 +20,11 @@ function NavBar() {
     <>
     <header className="navBar">
         {buttons}
-        <ThemeToggle/>
 
     </header>
+    <br/>
+    <ThemeToggle/>
+
 
     </>
   )

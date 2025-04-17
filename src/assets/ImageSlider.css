@@ -2,12 +2,15 @@
     position: relative;
     width: 90vw;
     max-width: 600px;
+    min-width: 300px;
     height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
     background-color: #0000;
+    box-shadow: 0 2px 4px 0 #00000030;
+    border-radius: 15px 15px 0 0 ;
 }
 
 .imageSlide img{

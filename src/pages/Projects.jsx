@@ -3,7 +3,9 @@ function Projects() {
     return(
         <>
         <h2>Projects</h2>
+        <div class="content">
         <ImageSlider images={["Baines.png", "dante.jpg", "vergil.png"]} />
+        </div>
         </>
     )
 }

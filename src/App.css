@@ -20,6 +20,18 @@
   }
 }
 
-.main {
-  padding: 2rem;
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px 0;
+}
+.text {
+  max-width: 500px;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 4px 0 #00000030;
+  border-radius: 15px 15px 0 0 ;
+  width: 78%;
+
 }

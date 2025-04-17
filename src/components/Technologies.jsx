@@ -10,12 +10,12 @@ function Technologies() {
     }
 
     return (
-        <>
+        <div>
         <h2>Technologies</h2>
         <div className="technologies">
             {logos}
         </div>
-        </>
+        </div>
     )
 }
 export default Technologies

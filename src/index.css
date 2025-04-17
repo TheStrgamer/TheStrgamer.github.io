@@ -2,8 +2,9 @@
   --bg-color: #cde;
   --text: #252535;
   --navbar: #d0e0f0;
-  --button-bg: #e0e0e0;
+  --button-bg: #d6dadf;
   --border-color: #d0d0d0;
+  --card-color: #dfe6ef;
   --hover-red: #ff8e8e;
   --hover-green: #90ee90;
   --hover-blue: #7fb3ff;
@@ -24,6 +25,7 @@
   --navbar: #2c2c2e;
   --button-bg: #3a3b3c;
   --border-color: #3f3f44;
+  --card-color: #2b2c2d;
   --hover-red: #ef6b6b;
   --hover-green: #6bcb77;
   --hover-blue: #4d96ff;

@@ -25,14 +25,19 @@
   border-radius: 10px;
 }
 
-.text {
+.experience-text {
   padding: 1rem;
   flex: 1;
+  max-width: 600px;
 }
 
-.text p {
+.experience-link {
   margin: 0;
   line-height: 1.6;
+  color: var(--text);
+}
+.experience-link:visited {
+    color: var(--text);
 }
 
 h3 {

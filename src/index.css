@@ -1,0 +1,49 @@
+:root {
+  --bg-color: #dfdfe0;
+  --text: #252535;
+  --navbar: #c0c9d0;
+  --button-bg: #d6dadf;
+  --border-color: #d0d0d0;
+  --card-color: #c8d0d0;
+  --hover-red: #ff8e8e;
+  --hover-green: #90ee90;
+  --hover-blue: #7fb3ff;
+
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: var(--text);
+  background-color: var(--bg-color);
+
+}
+
+.dark {
+  --bg-color: #242424;
+  --text: #e8eaed;
+  --navbar: #2c2c2e;
+  --button-bg: #3a3b3c;
+  --border-color: #3f3f44;
+  --card-color: #353637;
+  --hover-red: #ef6b6b;
+  --hover-green: #6bcb77;
+  --hover-blue: #4d96ff;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: inherit;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: var(--button-bg);
+  cursor: pointer;
+  transition: border-color 0.25s;
+}

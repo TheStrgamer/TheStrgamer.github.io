@@ -1,0 +1,51 @@
+.imageSlide{
+    position: relative;
+    width: 90vw;
+    max-width: 600px;
+    min-width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #0000;
+    box-shadow: 0 2px 4px 0 #00000030;
+    border-radius: 15px 15px 0 0 ;
+}
+
+.imageSlide img{
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    border-radius: 15px;
+}
+
+.leftButton,
+.rightButton{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.25);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 10;
+}
+.leftButton:hover,  .rightButton:hover {
+    background: rgba(0,0,0,0.75);
+    border: none;
+}
+ 
+
+.leftButton{
+    left: 10px;
+}
+
+.rightButton{
+    right: 10px;
+}

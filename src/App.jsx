@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Experience from './pages/Experience'
 import Projects from './pages/Projects'
@@ -9,7 +9,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <NavBar/>
       <div className='main'>
         <Routes>
@@ -21,8 +21,8 @@ function App() {
         <br/><br/><br/><br/>
       </div>
       <Footer/>
-    </BrowserRouter>
-  )
+    </HashRouter>
+  );
 }
 
 export default App

@@ -19,7 +19,7 @@ function Experience() {
 
     return(
         <>
-        <h1>Experience</h1>
+        <h1>Erfaring</h1>
         <div className="content">
             {experience}
         </div>

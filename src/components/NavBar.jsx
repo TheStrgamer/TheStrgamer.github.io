@@ -5,7 +5,7 @@ import NavBarButton from './NavBarButton';
 import ThemeToggle from './ThemeToggle';
 
 function NavBar() {
-  const pages = [["Home", "/", "var(--hover-red)"],["Experience", "/experience", "var(--hover-green)"],["Projects", "/projects", "var(--hover-blue)"]];
+  const pages = [["Om meg", "/", "var(--hover-red)"],["Erfaring", "/experience", "var(--hover-green)"],["Prosjekter", "/projects", "var(--hover-blue)"]];
   const location = useLocation();
 
   const [index, setIndex] = useState(0);

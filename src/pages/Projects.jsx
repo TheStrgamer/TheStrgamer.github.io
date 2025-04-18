@@ -3,7 +3,7 @@ import Project from "../components/Project"
 function Projects() {
     return(
         <>
-        <h1>Projects</h1>
+        <h1>Prosjekter</h1>
         <div className="content">
             <Project images={["text_image_project/main.png", "text_image_project/used_seed_3349.png", "text_image_project/encrypt_text.png", "text_image_project/encrypt_file.png", "text_image_project/decrypt_text.png"]} 
             title="Text/File to image" 

@@ -31,6 +31,18 @@
     top: 0;
     padding: 0.5rem;
 }
+@media (max-width: 450px) {
+    .projectHeader h2 {
+        font-size: 1.5rem;
+    }
+    
+    .projectHeader .link {
+        position: relative;
+        right: 0;
+        top: 0;
+        padding: 0.5rem;
+    }
+}
 
 .projectContainer {
     display: flex;

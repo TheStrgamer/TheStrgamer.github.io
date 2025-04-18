@@ -5,7 +5,7 @@ function ThemeToggle() {
   const [isDark, setIsDark] = useState(true)
 
   useEffect(() => {
-    const savedTheme = localStorage.getItem('theme') || 'light'
+    const savedTheme = localStorage.getItem('theme') || 'dark'
     const darkMode = savedTheme === 'dark'
     setIsDark(darkMode)
     document.documentElement.classList.toggle('dark', darkMode)

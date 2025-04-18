@@ -27,8 +27,8 @@ function ImageSlider({images}) {
   return (
     <>
     <div className="imageSlide">
-      <button className="leftButton" onClick={nextImage}>←</button>
-      <button className="rightButton" onClick={prevImage}>→</button>
+      <button className="leftButton" onClick={prevImage}>←</button>
+      <button className="rightButton" onClick={nextImage}>→</button>
       <img src={activeImage} alt={`Slide ${index}`} />
     </div>
 

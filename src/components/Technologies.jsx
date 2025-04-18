@@ -6,7 +6,7 @@ function Technologies() {
 
     const logos = []
     for (let i = 0; i < images.length; i++) {
-        logos.push(<img src={images[i]} className="logo" title={titles[i]} />)
+        logos.push(<img src={"logos/"+images[i]} className="logo" title={titles[i]} />)
     }
 
     return (

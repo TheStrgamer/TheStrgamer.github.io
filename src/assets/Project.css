@@ -66,3 +66,9 @@
 .projectHeader img:hover {
     filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
 }
+
+.project .imageSlide {
+    max-height: 300px;
+    max-width: 45%;
+
+}

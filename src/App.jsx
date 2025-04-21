@@ -20,6 +20,7 @@ function App() {
         </Routes>
         <br/><br/><br/><br/>
       </div>
+      <br/><br/>
       <Footer/>
     </HashRouter>
   );

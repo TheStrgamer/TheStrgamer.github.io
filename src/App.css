@@ -26,9 +26,10 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 50px 25px;
-  box-shadow: 0 2px 4px 0 #00000020;
   max-width: 1800px;
-
+  margin: auto;
+  min-height: 100vh - 175px;
+  min-height: calc(100vh - 485px);
 }
 .text {
   max-width: 500px;

@@ -11,7 +11,7 @@ function Experience() {
         />,
         <ExperienceComponent
         title="Cogito NTNU"
-        text="Cogito NTNU er et studentverv som fokuserer på kunstig intelligens. Cogito har både interne prosjekter, og kurs som er åpne for alle. Jeg ble med i Jarvis prosjektet i høsten 2024. Jarvis prosjektet gikk ut på å lage en KI assistent som kunne minne om Jarvis fra Iron. I dette prosjektet fikk jeg hovedansvar for Speech to text delen, som skulle la deg snakke med assistenten. Igjennom dette vervet har jeg lært mye om ulike KI modeller, og hvordan man kan bruke dem."
+        text="Cogito NTNU er et studentverv som fokuserer på kunstig intelligens. Cogito har både interne prosjekter, og kurs som er åpne for alle. Jeg ble med i Jarvis prosjektet i høsten 2024. Jarvis prosjektet gikk ut på å lage en KI assistent som kunne minne om Jarvis fra Iron man. I dette prosjektet fikk jeg hovedansvar for Speech to text delen, som skulle la deg snakke med assistenten. Igjennom dette vervet har jeg lært mye om ulike KI modeller, og hvordan man kan bruke dem."
         image="cogito.png"
         link="https://www.cogito-ntnu.no/"
         />

@@ -1,11 +1,20 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import '../assets/ImageSlider.css'
 
 function ImageSlider({images}) {
   
-
   const [index, setIndex] = useState(0);
   const activeImage = images[index]
+
+  function preloadImage(src) {
+    const img = new Image();
+    img.src = src;
+  }
+  
+  useEffect(() => {
+    const remainingImages = images.slice(1);
+    remainingImages.forEach(preloadImage);
+  }, []);
   
   function updateIndex(i) {
     let newIndex = index;

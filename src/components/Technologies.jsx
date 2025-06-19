@@ -1,8 +1,8 @@
 import "../assets/Technologies.css"
 function Technologies() {
 
-    const images = ["cpp.png", "django.png", "Vue.png", "java.webp", "js.webp", "python.webp", "unity.png","typescript.png","cs.png"]
-    const titles = ["C++","Django","Vue","Java","Javascript","Python","Unity","Typescript","C#"]
+    const images = ["cpp.png", "django.png", "Vue.png", "java.webp", "js.webp", "python.webp", "unity.png","typescript.png","cs.png", "react.png"]
+    const titles = ["C++","Django","Vue","Java","Javascript","Python","Unity","Typescript","C#", "React"]
 
     const logos = []
     for (let i = 0; i < images.length; i++) {

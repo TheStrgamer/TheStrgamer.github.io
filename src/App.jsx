@@ -6,6 +6,7 @@ import Experience from './pages/Experience'
 import Projects from './pages/Projects'
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
+import { Wishlist } from './pages/Wishlist'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/projects' element={<Projects />} />
           <Route path='/experience' element={<Experience />} />
+          <Route path='/wishlist' element={<Wishlist />} />
 
         </Routes>
         <br/><br/><br/><br/>

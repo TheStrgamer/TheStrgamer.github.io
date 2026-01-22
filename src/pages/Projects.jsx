@@ -13,7 +13,8 @@ function Projects() {
             <Project images={["marching_image/cpp_image.png", "marching_image/cpp_model.png", "marching_image/me_image.png", "marching_image/me_model.png", "marching_image/shape_image.png", "marching_image/shape_model.png"]} 
             title="Marching image" 
             text="Marching image er et prosjekt som kom av at jeg ville 3d printe logoer, uten å måtte trace dem selv. Programmet lar deg mappe et bilde til to eller flere farger, for å redusere antall farger. Du kan da eksportere en eller flere av disse fargene som flate 3d modeller. Modellene blir laged ved å bruke en modifisert versjon av marching squares."
-            ghlink={["https://github.com/TheStrgamer/Marching-Image"]}/>
+            ghlink={["https://github.com/TheStrgamer/Marching-Image"]}
+            demopath="marching_image/"/>
 
             <Project images={["chaos_game_project/barnsley.png", "chaos_game_project/julia1.png", "chaos_game_project/julia2.png", "chaos_game_project/custom.png", "chaos_game_project/custom1.png", "chaos_game_project/image.png", "chaos_game_project/imagem.png", "chaos_game_project/imange.png"]} 
             title="Chaos Game" 

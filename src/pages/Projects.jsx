@@ -10,6 +10,11 @@ function Projects() {
             text="Dette prosjektet går ut på å gjøre tekst eller filer om til bilder, og tilbake. Disse kan krypteres med et seed, der man må kryptere og dekryptere med samme seed for å få brukbart resultat. Isteden for å bruke verdiene til tegn eller byte direkte, brukes seed til å gi en ny tilfeldig verdi basert på den gamle, noe som gjør det vanskeligere å dekryptere uten riktig seed.  Dette prosjektet startet som en ide jeg jobbet med på videregående, som jeg senere bygde på nytt etter jeg hadde fått mer erfaring."
             ghlink={["https://github.com/TheStrgamer/Text-as-image"]}/>
 
+            <Project images={["marching_image/cpp_image.png", "marching_image/cpp_model.png", "marching_image/me_image.png", "marching_image/me_model.png", "marching_image/shape_image.png", "marching_image/shape_model.png"]} 
+            title="Marching image" 
+            text="Marching image er et prosjekt som kom av at jeg ville 3d printe logoer, uten å måtte trace dem selv. Programmet lar deg mappe et bilde til to eller flere farger, for å redusere antall farger. Du kan da eksportere en eller flere av disse fargene som flate 3d modeller. Modellene blir laged ved å bruke en modifisert versjon av marching squares."
+            ghlink={["https://github.com/TheStrgamer/Marching-Image"]}/>
+
             <Project images={["chaos_game_project/barnsley.png", "chaos_game_project/julia1.png", "chaos_game_project/julia2.png", "chaos_game_project/custom.png", "chaos_game_project/custom1.png", "chaos_game_project/image.png", "chaos_game_project/imagem.png", "chaos_game_project/imange.png"]} 
             title="Chaos Game" 
             text="Sluttprosjektet i faget Programmering 2. Dette prosjektet var et samarbeidsprosjekt med gruppe på 2, og oppgaven var å lage en applikasjon som kunne lage og vise fraktaler. Applikasjonen bruker javafx for GUI, og kan generere både Chaos game fraktaler og Julia set. Chaos game fraktalene går ut på å velge en tilfeldig transformasjon på koordinatene som skaper et mønster. Julia set går ut på å regne verdien for hver piksel basert på komplekse tall som lager settet. Fraktalene kan tilpasses, eller tilfeldig genereres, og man kan selv velge fargen de vises i. Transformasjonene kan lagres og lastes fra fil, og fraktalene kan lastes ned som bilde."

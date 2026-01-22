@@ -1,8 +1,17 @@
 import ImageSlider from "./ImageSlider"
 import LinkImage from "./LinkImage"
+import { useNavigate } from "react-router-dom";
 import "../assets/Project.css"
 
-function Project({ images, title, text, ghlink, itchlink }) {
+
+
+
+function Project({ images, title, text, ghlink, itchlink, demopath }) {
+    const navigate = useNavigate();
+
+    const openDemo = () => {
+        navigate(`/demo?src=${encodeURIComponent("/demo_builds/"+demopath)}`);
+    };
 
     const links = [];
     if (ghlink) {
@@ -27,6 +36,8 @@ function Project({ images, title, text, ghlink, itchlink }) {
                     <p>{text}</p>
                 </div>
             </div>
+            {demopath && <button className="demoButton" onClick={openDemo}>Demo</button>}
+
         </div>
     )
 }

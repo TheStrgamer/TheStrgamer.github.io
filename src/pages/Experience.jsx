@@ -4,6 +4,12 @@ function Experience() {
 
     const experience = [
         <ExperienceComponent
+        title="Digitalisering Indre Østfold (sommerjobb)"
+        text="Sommerjobb i Indre Østfold kommune. Jobben gikk ut på å lage en tolketjeneste som kunne brukes i bland annet foreldremøter og andre steder der tolk ikke er lovpålagt men er nyttig. Vi var et team på 3 studenter som brukte ulike KI tjenester fra Azure og OpenAI til å lage en sanntidsoversetter. Igjennom denne jobben lærte jeg mye om å jobbe med tjenester i azure, lage en talesesjon med websockets, og hvilke krav som hører til en kommunal applikasjon, både med tanke på utforming og databehandling."
+        image="io_kommune.png"
+        link="https://www.io.kommune.no/"
+        />,
+        <ExperienceComponent
         title="Make NTNU"
         text="Make NTNU er et studentdrevet verksted som er åpent for alle studenter og ansatte ved NTNU. Jeg ble med i Dev-teamet i starten av 2024, og tok over som teamleder i 2025. I perioden 2024–2025 var jeg varamedlem i styret, og i 2025 ble jeg styremedlem gjennom min rolle som leder for Dev-teamet. Verkstedets nettside er bygget med Django, og som teamleder har jeg ansvar for å vedlikeholde og deploye endringer til serveren. Igjennom dette vervet har jeg lært mye om hvordan man bruker Django, utvikler og vedlikeholder nettsidet, og bruker Git som samarbeidsverktøy."
         image="make.png"
